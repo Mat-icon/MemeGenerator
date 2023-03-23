@@ -1,0 +1,124 @@
+.meme-nav {
+  width: 100%;
+  height: 90px;
+  background: linear-gradient(to right, rgb(0, 0, 0), magenta);
+  box-sizing: border-box;
+  padding: 10px 40px;
+}
+.meme-flex {
+  display: flex;
+  align-items: center;
+  color: white;
+  justify-content: space-between;
+}
+.meme-nav > h1 {
+  font-size: 30px;
+  font-weight: 400;
+}
+.meme-body {
+  width: 100%;
+  height: 100vh;
+  background: whitesmoke;
+}
+.meme-body-dark {
+  width: 100%;
+  height: 100vh;
+  background: #1f1e1e;
+}
+.meme-grid {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.meme-input {
+  display: flex;
+}
+input {
+  width: 250px;
+  padding: 12px 30px;
+  border-radius: 12px;
+  margin: 10px;
+  border: none;
+  outline: none;
+}
+input:focus {
+  border: 1px solid silver;
+}
+
+.meme-btn {
+  width: 650px;
+  padding: 12px 20px;
+  background: linear-gradient(to right, magenta, rgb(0, 0, 0));
+  border-radius: 12px;
+  cursor: pointer;
+  color: white;
+  font-size: 14px;
+  border: none;
+}
+.image-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: sans-serif;
+  width: 100%;
+}
+.image-text h2 {
+  font-weight: 900;
+  font-size: 50px;
+}
+.image-text h4 {
+  font-weight: 800;
+  font-size: 25px;
+}
+
+.image {
+  width: 550px;
+  height: 400px;
+  margin-top: 20px;
+  margin-left: 40px;
+  text-align: center;
+}
+
+.image-meme {
+  width: 100%;
+  height: 100%;
+}
+.mode {
+  animation: mode infinite 4s ease-in-out;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid black;
+  outline: none;
+  background: none;
+  cursor: pointer;
+}
+.mode:hover {
+  background: magenta;
+  color: white;
+}
+
+@keyframes mode {
+  0% {
+    transform: scale(1.1);
+  }
+  25% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  75% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}

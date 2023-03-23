@@ -1,10 +1,11 @@
 import './App.css';
-import SignUp from './components/SignUp/SignUp'
+import MemeGenerator from './components/MemeGenrator/MemeGenerator';
+import MemeArray from './components/MemeGenrator/memeArray';
 
 function App() {
   return (
     <div className="App">
-      <SignUp/>
+      <MemeGenerator meme ={MemeArray}/>
     </div>
   );
 }
