@@ -67,15 +67,19 @@ input:focus {
   transform: translate(-50%, -50%);
   color: white;
   font-family: sans-serif;
-  width: 100%;
+  width: 90%;
 }
 .image-text h2 {
   font-weight: 900;
   font-size: 50px;
+  -webkit-text-stroke: #000000;
+  -webkit-text-stroke-width: 1px;
 }
 .image-text h4 {
   font-weight: 800;
   font-size: 25px;
+  -webkit-text-stroke: #000000;
+  -webkit-text-stroke-width: 1px;
 }
 
 .image {
